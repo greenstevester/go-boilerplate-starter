@@ -1,5 +1,13 @@
 # go-boilerplate-starter
 
+<p align="center">
+   <a href="https://github.com/greenstevester/go-boilerplate-starter/releases"><img src="https://img.shields.io/github/release/greenstevester/go-boilerplate-starter.svg?style=for-the-badge" alt="Releases"/></a>
+  <br>
+  <img src="https://img.shields.io/badge/Go-1.21.5-blue.svg?style=for-the-badge" alt="Go"/>
+</p>
+
+-----
+
 A simple and barely-above-zero-opinion go starter template for building cross-platform go applications.
 
 Includes:
@@ -8,7 +16,7 @@ Includes:
  - uses https://github.com/cweill/gotests to generate tests
 
 ## Installation
-git clone
+git clone git@github.com:greenstevester/go-boilerplate-starter.git
 
 ## Building
 
@@ -17,8 +25,6 @@ For those devs using intellij, you can click on the run icon next to the shell s
 1. ./scripts/cleanup.sh
 2. ```sh goreleaser release --snapshot --clean```
 3. /scripts/package/docker.sh
-
-### **dev**
 
 ## goreleaser
 run a "local-only" release to see if it works using the [release](/cmd/goreleaser_release/) command:
@@ -108,7 +114,3 @@ goreleaser release --skip=publish
 ```sh
 ./scripts/package/docker.sh
 ```
-
-## gotests 
-1. go get -u github.com/cweill/gotests/...
-2. 
