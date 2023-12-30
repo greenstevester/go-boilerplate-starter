@@ -1,7 +1,8 @@
 # go-boilerplate-starter
 
 <p align="center">
-   <a href="https://github.com/greenstevester/go-boilerplate-starter/releases"><img src="https://img.shields.io/github/release/greenstevester/go-boilerplate-starter.svg?style=for-the-badge" alt="Releases"/></a>
+   <a href="https://github.com/greenstevester/go-boilerplate-starter/releases"><img src="https://img.shields.io/github/v/release/greenstevester/go-boilerplate-starter
+" alt="Releases"/></a>
   <br>
   <img src="https://img.shields.io/badge/Go-1.21.5-blue.svg?style=for-the-badge" alt="Go"/>
 </p>
